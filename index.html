@@ -1,0 +1,83 @@
+<!--colocar comentarios-->
+<!DOCTYPE html>
+<html lang = “es”>
+    <!--Indentacion-->
+    <head>
+        <meta charset="UTF-8">
+        <title>Página de Ballenas</title>
+        <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap" rel="stylesheet">
+    </head>
+
+    <body><!--visualizacion, se ve en la web-->
+        <h1>Página de Ballenas</h1> <!--Tamaño de encabezados-->
+        
+        <h3>Imágenes de Ballenas</h3>
+
+        <!--Imagen desde internet-->
+        <img id="img1"src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Eubalaena_glacialis_with_calf.jpg/250px-Eubalaena_glacialis_with_calf.jpg>
+        <!--<br>-->
+        <!--Imagen desde computadora-->
+        <img id="img2"src="imagenes/Under The Sea.jpg">
+        <img id="img3"src="imagenes/whale.jpg">
+        
+        <!--Crear enlaces externos-->
+        <p>Si quieres ver más imágenes de medusas, <a href="https://www.google.com/search?q=ballenas&sxsrf=APwXEdcgSXT1I139ysJyMjRTK7xiAt5DdQ:1684095492482&source=lnms&tbm=isch&sa=X&ved=2ahUKEwickePM0PX-AhVnJ0QIHfiEDUIQ_AUoAXoECAEQAw&biw=1280&bih=577&dpr=1.5#imgrc=fekK6DjS7DGi4M" target="_blank">da click aquí.</a></p>
+        <!--el elemento <a> le da funcionalidad al link-->
+        <!--target _blank da la funcionalidad de abrir otra ventana al darle click al link-->
+        <h3>Listas de Ballenas</h3>
+        <p> <strong>Curiosidades</strong> de las ballenas</p>
+            
+            <!--Listas Ordenadas-->
+            <ol> <!--Ordered List-->
+                <li>La ballena azul es el animal más grande del mundo.</li><!--List item-->
+                <li>Algunas ballenas viven 200 años.</li>
+                <li>Respiran aire a tráves de pulmones.</li>
+                <li>No son peces porque tienen sangre caliente.</li>
+            </ol>
+
+        <!--Listas Desordenadas-->
+        <p>¿De que se <i>alimentan</i> las ballenas?</p>
+            <ul><!--Unordered List-->
+                <li>Crustáceos</li>
+                <li>Cardúmenes de pequeños peces.</li>
+            </ul>
+
+        <!--Formularios-->
+
+        <form>
+            <!--Formulario con botones de radio-->
+            <p>¿Has visto alguna ballena?</p>
+            <label>
+                <!--Agregar informacion-->                       
+                <input id="Si" type="radio" value="Si" name="Si-No" checked> No.
+            </label>
+            <br> <!--(break)Separacion por lista, por ejemplo, en este caso, poner una palabra debajo de la otra (salto de liena)-->
+            <label>                     
+                <input id="No" type="radio" value="No" name="Si-No"> Si.
+            </label>
+
+            <!--Formulario con casillas de  verificacion - checks-->
+            <p>¿De cuál especie has escuchado o leído?</p>
+            <label>
+                <input id="Ballena Franca" type="checkbox" value="Ballena Franca" name="Especie" checked> Ballena Franca.
+            </label>
+            <br>
+            <label>
+                <input id="Ballena Gris" type="checkbox" value="Ballena Gris" name="Especie"> Ballena Gris.
+            </label>
+            <br>
+            <label>
+                <input id="Ballena Azul" type="checkbox" value="Ballena Azul" name="Especie"> Ballena Azul.
+            </label>
+        </form>
+    </body>
+
+    <footer><!--Small hace mas pequeñas las letras dentro del contenido p-->
+        <p><small>Esta pagina fue creada durante el bootcamp de <a href="https://tecnolochicas.mx/" target="_blank">Tecnolochicas PRO</a></small></p>
+    </footer>
+
+
+</html>

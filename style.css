@@ -1,0 +1,49 @@
+/*Asi se pone un comentario*/
+body{
+    background-color: #007D90;
+    color: #003346; /*Color para las letras*/
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h3{
+    color:#12444C;
+    font-size: 25px; /*tamaño de la fuente*/
+}
+
+h1, p{
+    color:black;
+}
+
+h1{
+    text-align: center;
+    font-size: 45px;
+}
+
+img {
+    /*width: 400px; tamaño de las imagenes*/
+    /*height: 240px; Cambia la altura de las imagagenes*/
+    border-style:solid;
+    border-color: blanchedalmond;
+    margin: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.img1 {
+    width: 560px;
+    height: 180px;
+}
+
+.img2 {
+    width: 45px;
+    height: 90px;
+}
+
+.img3 {
+    width: 80px;
+    height: 130px;
+}
+
+a, small{
+    color:blue;
+}
